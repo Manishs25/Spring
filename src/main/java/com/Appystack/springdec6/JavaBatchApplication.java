@@ -1,8 +1,8 @@
 package com.Appystack.springdec6;
 
-import com.Appystack.springdec6.aop.BoyStudent;
+//import com.Appystack.springdec6.aop.BoyStudent;
 import com.Appystack.springdec6.di.Company;
-import com.Appystack.springdec6.validation.GirlStudent;
+//import com.Appystack.springdec6.aop.GirlStudent;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -25,10 +25,10 @@ public class JavaBatchApplication {
         Company company = context.getBean(Company.class);
         company.display();
 
-        BoyStudent boyStudent = context.getBean(BoyStudent.class);
-        GirlStudent girlStudent = context.getBean(GirlStudent.class);
-        boyStudent.study(5);//jointpoint
-        boyStudent.exe("throws exp");
+//        BoyStudent boyStudent = context.getBean(BoyStudent.class);
+//        GirlStudent girlStudent = context.getBean(GirlStudent.class);
+//        boyStudent.study(5);//jointpoint
+//        boyStudent.exe("throws exp");
 //        girlStudent.studies("LEARN","AOP");
     }
 
